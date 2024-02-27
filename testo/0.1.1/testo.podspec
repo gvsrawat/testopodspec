@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/grvrwt05@gmail.com/gauravpod'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Gaurav Rawat' => 'grvrwt05@gmail.com' }
-  s.source           = { :git => 'https://github.com/gvsrawat/testo.git', :tag => '0.1.1' }
+  s.source           = { :http => 'https://storage.googleapis.com/tripmate_publc_bucket_1/testo.xcframework.zip' }
 
   s.ios.deployment_target = '12.0'
   s.vendored_frameworks = 'testo.xcframework'
